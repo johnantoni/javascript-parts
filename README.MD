@@ -1,23 +1,27 @@
-##### Anonymous Functions
+### Anonymous Functions
 
 * Anonymous functions are functions that are dynamically declared at runtime.
 * They are declared using the function operater instead of the function declaration.
 
-    // named function
+**named function**
+
     function triple(x) {
       return x * 3
     }
 
-    // anonymous function
+**anonymous function**
+
     var triple = function(x) {
       return x * 3
     }
 
-##### what's the difference between let & var
+### what's the difference between let & var
 
 * unlike let, var suffers from hoisting
 * variables declared using var can be accessed in the whole scope
 * we can access them before they're used
+
+**example**
 
     function parent(data) {
       var i;
@@ -30,11 +34,11 @@
       }
     }
 
-##### Prototypal Inheritance
+### Prototypal Inheritance
 
 > A prototype is a working object instance. Objects inherit directly from other objects.
 
-##### Classsical Inheritance
+### Classsical Inheritance
 
 > Classes inherit from classes and create subclass relationships: hierarchical class taxonomies.
 
