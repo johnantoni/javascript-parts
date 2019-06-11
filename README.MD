@@ -15,7 +15,7 @@
       return x * 3
     }
     
-### First Class Objects
+### First Class Functions
 
 * they are stored in a variable or array
 * or passed as an argument to a function
@@ -55,4 +55,4 @@
 
 > Classes inherit from classes and create subclass relationships: hierarchical class taxonomies.
 
-* Gorilla / Bananna Problem: What you wanted was a banana, but what you got was a gorilla holding the banana, and the entire jungle
+* Gorilla / Banana Problem: What you wanted was a banana, but what you got was a gorilla holding the banana, and the entire jungle
