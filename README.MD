@@ -14,6 +14,19 @@
     var triple = function(x) {
       return x * 3
     }
+    
+### First Class Objects
+
+* they are stored in a variable or array
+* or passed as an argument to a function
+* or returned from a function
+    
+### Higher Order Functions
+
+* help with composition allowing us to place little functions into bigger functions and so on.
+* reducing complexity.
+* functions that operate on other functions.
+* to aid in readability and maintainability.
 
 ### what's the difference between let & var
 
